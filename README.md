@@ -12,6 +12,12 @@ export AWS_PROFILE=xxx
 make terraform/pytest PYTEST_ARGS="-v --nomock"
 ```
 
+For automated testing, PYTEST_ARGS is optional and no profile is needed:
+
+```
+make terraform/pytest PYTEST_ARGS="-v"
+```
+
 <!-- BEGIN TFDOCS -->
 ## Requirements
 
