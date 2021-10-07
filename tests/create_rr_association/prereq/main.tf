@@ -1,14 +1,5 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
-
 module "vpc" {
-  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v2.15.0"
-
-  providers = {
-    aws = aws
-  }
+  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v3.2.0"
 
   name            = "tardigrade-route53-rr-association-testing"
   cidr            = "10.0.0.0/16"
