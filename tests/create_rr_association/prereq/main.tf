@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v3.2.0"
+  source = "github.com/terraform-aws-modules/terraform-aws-vpc?ref=v3.11.0"
 
   name            = "tardigrade-route53-rr-association-testing"
   cidr            = "10.0.0.0/16"
