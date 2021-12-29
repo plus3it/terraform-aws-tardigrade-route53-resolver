@@ -83,7 +83,7 @@ locals {
 }
 
 module "vpc1" {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v2.57.0"
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v3.11.0"
 
   name            = "${local.name}-vpc1"
   cidr            = "10.0.0.0/16"
@@ -92,7 +92,7 @@ module "vpc1" {
 }
 
 module "vpc2" {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v2.57.0"
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v3.11.0"
 
   name            = "${local.name}-vpc2"
   cidr            = "10.1.0.0/16"
