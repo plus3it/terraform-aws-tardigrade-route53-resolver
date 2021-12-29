@@ -21,13 +21,13 @@
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "resource-member"
+  profile = "aws"
 }
 
 provider "aws" {
   region  = "us-east-1"
   alias   = "owner"
-  profile = "resource-owner"
+  profile = "awsalternate"
 }
 
 module "query_log_config_association" {
