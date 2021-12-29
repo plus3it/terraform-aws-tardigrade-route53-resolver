@@ -6,12 +6,12 @@ updates:
     interval: daily
   open-pull-requests-limit: 10
 - package-ecosystem: terraform
-  directory: "/tests/create_rr_association"
+  directory: "/tests/cross-account-associations"
   schedule:
     interval: daily
   open-pull-requests-limit: 10
 - package-ecosystem: terraform
-  directory: "/tests/create_rr_association/prereq"
+  directory: "/tests/resolver"
   schedule:
     interval: daily
   open-pull-requests-limit: 10
