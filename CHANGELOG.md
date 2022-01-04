@@ -1,8 +1,29 @@
-## terraform-aws-tardigrade-route53-rr-association Change Log
+## terraform-aws-tardigrade-route53-resolver Change Log
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+### 3.0.0
+
+**Released**: 2021.12.29
+
+**Commit Delta**: [Change from 2.0.0 release](https://github.com/plus3it/terraform-aws-tardigrade-route53-rr-association/compare/2.0.0...3.0.0)
+
+**Summary**:
+
+*   Refactors module from managing only Resolver Rule Assocations, to managing
+    all components of Route53 Resolvers.
+
+### 2.0.0
+
+**Released**: 2020.09.15
+
+**Commit Delta**: [Change from 1.0.2 release](https://github.com/plus3it/terraform-aws-tardigrade-route53-rr-association/compare/1.0.2...2.0.0)
+
+**Summary**:
+
+*   Removes "create" variable used to enable/disable resources in the module
 
 ### 1.0.2
 
