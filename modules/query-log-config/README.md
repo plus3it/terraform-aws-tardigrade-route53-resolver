@@ -24,7 +24,7 @@ No requirements.
 |------|-------------|------|---------|:--------:|
 | <a name="input_destination_arn"></a> [destination\_arn](#input\_destination\_arn) | ARN of the resource where Route 53 Resolver will send query logs | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | Name of the Route 53 Resolver query logging configuration | `string` | n/a | yes |
-| <a name="input_associations"></a> [associations](#input\_associations) | List of Route53 query log config associations | <pre>list(object({<br>    # `name` used as for_each key<br>    name = string<br>    # ID of a VPC to associate with this query log configuration<br>    resource_id = string<br>  }))</pre> | `[]` | no |
+| <a name="input_associations"></a> [associations](#input\_associations) | List of Route53 query log config associations | <pre>list(object({<br/>    # `name` used as for_each key<br/>    name = string<br/>    # ID of a VPC to associate with this query log configuration<br/>    resource_id = string<br/>  }))</pre> | `[]` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Map of tags to assign to the resource | `map(string)` | `{}` | no |
 
 ## Outputs
