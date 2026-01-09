@@ -137,7 +137,7 @@ module "ram_share_accepter" {
 }
 
 module "vpc_member" {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v6.5.1"
+  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v6.6.0"
 
   name            = "${local.name}-vpc-member"
   cidr            = "10.0.0.0/16"
